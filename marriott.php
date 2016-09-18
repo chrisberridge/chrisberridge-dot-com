@@ -49,13 +49,17 @@
         </div>
     </div>
     <div class="row" id="bottommargin">
-        <div class="small-12 columns"> <img id="casepic" src="img/marriott/6.jpg" width="100%"></br>
+        <div class="small-12 columns bottommargin"> <img id="casepic" src="img/marriott/6.jpg" width="100%"></br>
         </div>
     </div>
-    <div class="row">
-        <div class="columns">
-            <div class="small-12 small-centered columns testimonialsinner" style="border:1px;border-color:#FFD800;border-style: solid!important;text-align:center">
-                <h6><p><em>&#8220;Chris is a strong design leader, with a strategic view on design that I really valued during my time at cxpartners.&#8221;</em></p><p>&#8212; Alastair Lee, Digital Strategy and Product Development</p></h6> </div>
+    <div class="row full-width diff" style="background: #FFD800;color:#0A2A31!important;">
+        <div class="columns nopadleftclients">
+            <div class="row">
+                <div class="columns">
+                <div class="small-12 small-centered columns testimonialsinner">
+                    <h6 style="background: #FFD800;color:#0A2A31!important;"><p><em>&#8220;Chris is a strong design leader, with a strategic view on design that I really valued during my time at cxpartners.&#8221;</em></p><p>&#8212; Alastair Lee, Digital Strategy and Product Development</p></h6> </div>
+            </div>
+            </div>    
         </div>
     </div>
     <?php include 'casestudies.html';?> 

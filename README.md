@@ -1,1 +1,0 @@
-Welcome. This is the code for the chrisberridge.com website. Hacked together with the Foundation css/js framework. Enjoy.

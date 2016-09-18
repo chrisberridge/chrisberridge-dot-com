@@ -42,13 +42,17 @@
         </div>
     </div>
     <div class="row" id="topmarginmini">
-        <div class="small-12 columns"> <img id="casepic" src="img/scrapbook/5.jpg" width="100%"></br>
+        <div class="small-12 columns bottommargin"> <img id="casepic" src="img/scrapbook/5.jpg" width="100%"></br>
         </div>
     </div>
-    <div class="row">
-        <div class="columns">
-            <div class="small-12 small-centered columns testimonialsinner" style="border:1px;border-color:#FFD800;border-style: solid!important;text-align:center">
-                <h6><p><em>&#8220;I’ve been impressed with Chris’s quiet authority and design sensibility, combining flair and precision with a user-centred design approach.&#8221;</em></p><p>&#8212; Mark Hix, UX Director, cxpartners</p></h6> </div>
+    <div class="row full-width diff" style="background: #FFD800;color:#0A2A31!important;">
+        <div class="columns nopadleftclients">
+            <div class="row">
+                <div class="columns">
+                <div class="small-12 small-centered columns testimonialsinner">
+                    <h6 style="background: #FFD800;color:#0A2A31!important;"><p><em>&#8220;I’ve been impressed with Chris’s quiet authority and design sensibility, combining flair and precision with a user-centred design approach.&#8221;</em></p><p>&#8212; Mark Hix, UX Director, cxpartners</p></h6> </div>
+            </div>
+            </div>    
         </div>
     </div>
     <?php include 'casestudies.html';?> 

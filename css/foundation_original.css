@@ -264,87 +264,61 @@ sub {
   box-shadow: inset 1rem 0 0 0 rgba(255,216,0,1);
 }
 
-h1 {
-            
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-         }
-         
-         @-webkit-keyframes fadeInDown {
-            0% {
-               opacity: 0;
-               -webkit-transform: translateY(-20px);
-            }
-            100% {
-               opacity: 1;
-               -webkit-transform: translateY(0);
-            }
-         }
-         
-         @keyframes fadeInDown {
-            0% {
-               opacity: 0;
-               transform: translateY(-20px);
-            }
-            100% {
-               opacity: 1;
-               transform: translateY(0);
-            }
-         }
-         
-         .fadeInDown {
-            -webkit-animation-name: fadeInDown;
-            animation-name: fadeInDown;
-         }
-
- 
-h3 {
-            
-            -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-         }
-         
-         @-webkit-keyframes fadeInDown2 {
-            0% {
-               opacity: 0;
-            }
-            100% {
-               opacity: 1;
-            }
-         }
-         
-         @keyframes fadeInDown2 {
-            0% {
-               opacity: 0;
-            }
-            100% {
-               opacity: 1;
-            }
-         }
-         
-         .fadeInDown2 {
-            -webkit-animation-name: fadeInDown2;
-            animation-name: fadeInDown2;
-         }
-
-
 ul {margin-top: 1.5rem!important}
-
 .nopadleft {padding-left: 0px!important}
 .nopadleft2 {padding-left: 0px!important}
-.nopadleftclients {padding-left: 0px!important;
-padding-right: 0px!important}
+.nopadleftclients {padding-left: 0rem!important;
+padding-right: 0rem!important}
     .startupspara {color:#FFD800!important;
-        margin-top: 1rem;}
-.testimonials {margin-top: 1rem;
-margin-bottom: 3rem;}
+        margin-top: 1rem;
+        margin-bottom: 2rem}
+
+.nonmobile {display: none}
+
+
+    .testimonials {margin-top: 1rem;
+margin-bottom: 3rem;border:0px;}
 .testimonialsinner {margin-top: 1rem;
 margin-bottom: 1rem;}
 
+.row.last {
+        margin-top: 1.5rem!important;
+        margin-bottom: 1.5rem!important
+    }
+
+.massive_clients {
+    font-size: 1.4rem;
+    letter-spacing: -.2px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.massive_case {
+    font-size: 1.4rem;
+    letter-spacing: -.2px;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+hr {margin: 1rem 0 4rem 0!important}
+div#introbottom {
+    padding-bottom: 6em;
+}
+p#clientlast {
+    padding-bottom: 4.5rem
+}
+.clientrow {margin: 0 1.5rem!important;}
+.clients2ndrow {
+        margin-top: 1.5rem;
+}
+    div#footer2 {
+        font-weight: 400;
+        font-style: normal;
+        padding-right: 2rem;
+        padding-top: 0rem;
+        color:#0A2A31!important;
+        line-height: 1.5em;
+        padding-bottom: 4.5rem
+    }        
+/* -------------------- END OF ESSENTIAL CUSTOMISATIONS ------------------*/
 
 svg:not(:root) {
     overflow: hidden
@@ -398,10 +372,10 @@ html {
 }
 
 body {
-    animation: fadein 1s;
-    -moz-animation: fadein 1s;
-    -webkit-animation: fadein 1s;
-    -o-animation: fadein 1s;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
     padding: 0;
     margin: 0;
     font-weight: 400;
@@ -410,20 +384,6 @@ body {
     background: #0A2A31;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
-}
-
-@media screen and (min-width:40em) {
-    .row.last {
-        margin-top: 1rem!important;
-        margin-bottom: 1.5rem!important
-    }
-}
-
-@media screen and (min-width:55em) {
-    .row.last {
-        margin-top: 1rem!important;
-        margin-bottom: 3rem!important
-    }
 }
 
 p#caselast {
@@ -645,19 +605,17 @@ h4#case {
 }
 
 h5 {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     line-height: 1em;
     padding-top: .25rem
 }
-
+.tinytext {    font-size: 0.8rem;}
 img#casepic,
-p#clientlast {
-    padding-bottom: 1.5rem
-}
+
 
 h6 {
-    padding: 1.5rem 1rem 1rem;
+    padding: 2rem 0rem 1rem;
     font-weight: 400;
     font-size: 1rem;
     color: #FFD800;
@@ -682,7 +640,7 @@ div#footer2 {
 }
 
 div#introbottom {
-    padding-bottom: 3.5em
+    padding-bottom: 1.5em
 }
 
 div#footer a,
@@ -712,27 +670,58 @@ p#casecap {
     padding-top: 5rem
 }
 
-#bottommargin {
+.bottommargin {
     padding-bottom: 5em
 }
 
 @media screen and (min-width:40em) {
 
-.closex {
-text-align: right;
-font-size: 3rem;
-color: #0A2A31!important;
-line-height: 8rem;
-}
+.mobile {display: none}
+.nonmobile {display: block}
+    .nopadleftclients {padding-left: 2rem!important;
+padding-right: 2rem!important}
+    .testimonials {margin-top: 1rem;
+margin-bottom: 3rem;border:0px;}
+.testimonialsinner {margin-top: 3rem;
+margin-bottom: 2rem;}
 
-div#menuitems {
-    letter-spacing: -.25px!important;
-    font-size: 2rem!important;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: -30px!important;
-}
+.row.last {
+        margin-top: 1.5rem!important;
+        margin-bottom: 1.5rem!important
+    }
 
+.massive_clients {
+    font-size: 2rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 4rem;
+}
+.massive_case {
+    font-size: 2rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+}
+hr {margin: 1rem 0 4rem 0!important}
+div#introbottom {
+    padding-bottom: 6em;
+}
+p#clientlast {
+    padding-bottom: 4.5rem
+}
+.clientrow {margin: 0 1.5rem!important;}
+.clients2ndrow {
+        margin-top: 1.5rem;
+}
+    div#footer2 {
+        font-weight: 400;
+        font-style: normal;
+        padding-right: 2rem;
+        padding-top: 0rem;
+        color:#0A2A31!important;
+        line-height: 1.5em;
+        padding-bottom: 4.5rem
+    }
 .nopadleft2 {padding-left: .9375rem!important;}
     .startupspara {color:#FFD800!important;
         margin-top: 0rem;}
@@ -759,7 +748,7 @@ div#menuitems {
         text-transform: uppercase
     }
     h1 {
-        font-size: 6.5rem;
+        font-size: 4.5rem;
         letter-spacing: -2px;
         line-height: 1.1em;
         margin-bottom: 4rem
@@ -806,9 +795,6 @@ div#menuitems {
     h5#clientfirst {
         padding-top: 0
     }
-    p#clientlast {
-        padding-bottom: 0
-    }
     #clientfirst {
         padding-top: 3rem
     }
@@ -824,20 +810,10 @@ div#menuitems {
         font-weight: 600;
         line-height: 1.3em
     }
-    div#footer,
-    div#footer2 {
-        color: #fff;
-        font-weight: 400;
-        font-style: normal;
-        padding-right: 2rem;
-        padding-top: 1rem;
-        font-size: .8rem
-    }
     div#introbottom {
         padding-bottom: 5em
     }
     div#footer2 {
-        padding-bottom: 3.5rem;
         font-size: 1rem;
     }
     p#casetag {
@@ -860,6 +836,47 @@ div#menuitems {
 }
 
 @media screen and (min-width:55em) {
+    .testimonials {margin-top: 1rem;
+margin-bottom: 3rem;border:0px;}
+
+
+.row.last {
+        margin-top: 1.5rem!important;
+        margin-bottom: 1.5rem!important
+    }
+
+.massive_clients {
+    font-size: 2rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 4rem;
+}
+.massive_case {
+    font-size: 2rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+}
+hr {margin: 1rem 0 4rem 0!important}
+div#introbottom {
+    padding-bottom: 6em;
+}
+p#clientlast {
+    padding-bottom: 4.5rem
+}
+.clientrow {margin: 0 1.5rem!important;}
+.clients2ndrow {
+        margin-top: 1.5rem;
+}
+    div#footer2 {
+        font-weight: 400;
+        font-style: normal;
+        padding-right: 2rem;
+        padding-top: 0rem;
+        color:#0A2A31!important;
+        line-height: 1.5em;
+        padding-bottom: 4.5rem
+    }
     .row {
     max-width: 120rem;
     margin-left: auto;
@@ -867,12 +884,6 @@ div#menuitems {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-    div#footer,
-    div#footer2 {
-        color: #fff;
-        padding-right: 2rem;
-        padding-top: 1.5rem
-    }
     div#footer,
     div#footer2,
     h6 {
@@ -895,7 +906,6 @@ div#menuitems {
         color: #FFF!important
     }
     div#footer2 {
-        padding-bottom: 2.5rem;
              font-size: 1rem;
     }
     h5 {
@@ -920,31 +930,52 @@ div#menuitems {
         padding-bottom: 3em;
         padding-right: 6em
     }
-    p#clientlast {
-    padding-bottom: 1rem
-}
+
 }
 
 @media screen and (min-width:74em) {
 
-    .closex {
-text-align: right;
-font-size: 6rem;
-color: #0A2A31!important;
-line-height: 10rem;
+.testimonials {margin-top: 1rem;
+margin-bottom: 3rem;border:0px;}
+
+
+.row.last {
+        margin-top: 1.5rem!important;
+        margin-bottom: 1.5rem!important
+    }
+
+.massive_clients {
+    font-size: 2.5rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 4rem;
 }
-
-div#menuitems {
-    letter-spacing: -.5px!important;
-    font-size: 3rem!important;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: -30px!important;
+.massive_case {
+    font-size: 2.5rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
 }
-
-    .testimonials {margin-top: 2rem;
-margin-bottom: 5rem;}
-
+hr {margin: 1rem 0 4rem 0!important}
+div#introbottom {
+    padding-bottom: 6em;
+}
+p#clientlast {
+    padding-bottom: 4.5rem
+}
+.clientrow {margin: 0 1.5rem!important;}
+.clients2ndrow {
+        margin-top: 1.5rem;
+}
+    div#footer2 {
+        font-weight: 400;
+        font-style: normal;
+        padding-right: 2rem;
+        padding-top: 0rem;
+        color:#0A2A31!important;
+        line-height: 1.5em;
+        padding-bottom: 4.5rem
+    }
     .nopadleftclients p {font-size: 1.1rem!important;
 line-height: 1.8rem!important}
 
@@ -1017,7 +1048,7 @@ line-height: 1.8rem!important}
         line-height: 1.2em
     }
     h6 {
-        padding: 5rem;
+        padding: 6rem 12rem;
         font-weight: 400;
         font-size: 2rem;
         color: #FFD800;
@@ -1029,18 +1060,6 @@ line-height: 1.8rem!important}
         font-weight: 600;
         line-height: 1.3em
     }
-    div#footer,
-    div#footer2 {
-        color: #fff;
-        font-size: 1.4rem;
-        font-weight: 400;
-        font-style: normal;
-        padding-right: 2rem;
-        padding-top: 2.5rem
-    }
-    div#footer2 {
-        padding-bottom: 3.5rem
-    }
     p#casecap {
         font-size: 1rem;
         padding-top: 1.5em;
@@ -1050,20 +1069,47 @@ line-height: 1.8rem!important}
 }
 
 @media screen and (min-width:102em) {
-.closex {
-text-align: right;
-font-size: 7.5rem;
-color: #0A2A31!important;
-line-height: 11rem;
-}
 
-div#menuitems {
-    letter-spacing: -.5px!important;
-    font-size: 4rem!important;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: -30px!important;
+.testimonials {margin-top: 1rem;
+margin-bottom: 3rem;border:0px;}
+
+
+.row.last {
+        margin-top: 1.5rem!important;
+        margin-bottom: 1.5rem!important
+    }
+
+.massive_clients {
+    font-size: 2.5rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 4rem;
 }
+.massive_case {
+    font-size: 2.5rem;
+    letter-spacing: -.2px;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+}
+hr {margin: 1rem 0 4rem 0!important}
+div#introbottom {
+    padding-bottom: 8em;
+}
+p#clientlast {
+    padding-bottom: 4.5rem
+}
+.clientrow {margin: 0 1.5rem!important;}
+.clients2ndrow {
+        margin-top: 1.5rem;
+}
+    div#footer2 {
+        font-weight: 400;
+        font-style: normal;
+        padding-right: 2rem;
+        padding-top: 0rem;
+        color:#0A2A31!important;
+        line-height: 1.5em;
+    }
     #casestudy_teasers p {
         font-size: 1.4rem!important;
     }
@@ -1136,7 +1182,7 @@ div#menuitems {
         line-height: 1.2em
     }
     h6 {
-        padding: 5rem;
+        padding: 10rem 18rem;
         font-weight: 400;
         font-size: 2rem;
         color: #FFD800;
@@ -1147,19 +1193,6 @@ div#menuitems {
         text-transform: normal;
         font-weight: 600;
         line-height: 1.3em
-    }
-    div#footer,
-    div#footer2 {
-        color: #fff;
-        font-size: 1.4rem;
-        font-weight: 400;
-        font-style: normal;
-        padding-right: 2rem;
-        padding-top: 2.5rem
-    }
-    div#footer2 {
-        padding-bottom: 3.5rem;
-        font-size: 1.6rem;
     }
     p#casecap {
         font-size: 1.4rem;

@@ -25,7 +25,7 @@
     <?php include 'casestudies.html';?> 
     <div class="row">
         <div class="columns">
-            <div class="small-12 small-centered columns testimonials" style="border:1px;border-color:#FFD800;border-style: solid!important;text-align:center">
+            <div class="small-12 small-centered columns testimonials">
                 <h6><p><em>&#8220;I was on Chris’ team for just short of 4 years. The design systems, brand identities, and layouts he designed were world class.&#8221;</em></p><p>&#8212; Luke Jones, Hudl</p></h6> </div>
         </div>
     </div>

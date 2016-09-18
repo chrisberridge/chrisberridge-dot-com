@@ -37,13 +37,17 @@
         </div>
     </div>
     <div class="row" id="bottommargin">
-        <div class="small-12 columns"> <img id="casepic" src="img/moneyhub/4.jpg" width="100%"></br>
+        <div class="small-12 columns bottommargin"> <img id="casepic" src="img/moneyhub/4.jpg" width="100%"></br>
         </div>
     </div>
-    <div class="row">
-        <div class="columns">
-            <div class="small-12 small-centered columns testimonialsinner" style="border:1px;border-color:#FFD800;border-style: solid!important;text-align:center">
-                <h6><p><em>&#8220;I was on Chris’ team for just short of 4 years. The design systems, brand identities, and layouts he designed were world class.&#8221;</em></p><p>&#8212; Luke Jones, Hudl</p></h6> </div>
+    <div class="row full-width diff" style="background: #FFD800;color:#0A2A31!important;">
+        <div class="columns nopadleftclients">
+            <div class="row">
+                <div class="columns">
+                <div class="small-12 small-centered columns testimonialsinner">
+                    <h6 style="background: #FFD800;color:#0A2A31!important;"><p><em>&#8220;I was on Chris’ team for just short of 4 years. The design systems, brand identities, and layouts he designed were world class.&#8221;</em></p><p>&#8212; Luke Jones, Hudl</p></h6> </div>
+            </div>
+            </div>    
         </div>
     </div>
     <?php include 'casestudies.html';?> 

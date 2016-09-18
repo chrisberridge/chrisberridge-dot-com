@@ -42,16 +42,20 @@
             <p id="casecap">We tested the identity and digital touchpoint work I produced with over 300 customers, ensuring that it resonated with people in the way intended.</p>
         </div>
     </div>
-    <div class="row" id="bottommargin">
+    <div class="row" class="bottommargin">
         <div class="medium-6 small-12 columns"> <img id="casepic" src="img/smile/6.jpg" width="100%"></br>
         </div>
-        <div class="medium-6 small-12 columns"> <img id="casepic" src="img/smile/7.jpg" width="100%"></br>
+        <div class="medium-6 small-12 columns bottommargin"> <img id="casepic" src="img/smile/7.jpg" width="100%"></br>
         </div>
     </div>
-    <div class="row">
-        <div class="columns">
-            <div class="small-12 small-centered columns testimonialsinner" style="border:1px;border-color:#FFD800;border-style: solid!important;text-align:center">
-                <h6><p><em>&#8220;Chris is a great designer. He works fast, produces excellent work and is not afraid to challenge the brief - an essential quality for all designers.&#8221;</em></p><p>&#8212; Will Myddelton, Government Digital Service (GDS)</p></h6> </div>
+    <div class="row full-width diff" style="background: #FFD800;color:#0A2A31!important;">
+        <div class="columns nopadleftclients">
+            <div class="row">
+                <div class="columns">
+                <div class="small-12 small-centered columns testimonialsinner">
+                    <h6 style="background: #FFD800;color:#0A2A31!important;"><p><em>&#8220;Chris is a great designer. He works fast, produces excellent work and is not afraid to challenge the brief - an essential quality for all designers.&#8221;</em></p><p>&#8212; Will Myddelton, Government Digital Service (GDS)</p></h6> </div>
+            </div>
+            </div>    
         </div>
     </div>
     <?php include 'casestudies.html';?> 

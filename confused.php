@@ -46,16 +46,20 @@
     <div class="row">
         <div class="small-12 columns"> <img id="casepic" src="img/confused/6.jpg" width="100%"></br>
         </div>
-        <div class="medium-6 medium-offset-6 small-10 small-offset-2 columns">
+        <div class="medium-6 medium-offset-6 small-10 small-offset-2 columns bottommargin">
             <p id="casecap">The visual language was developed into a flexible, reusable set of components and patterns that the Confused.com team could use to build and continuously evolve their digital touchpoints.</p>
         </div>
     </div>
-    <div class="row">
-        <div class="columns">
-            <div class="small-12 small-centered columns testimonialsinner" style="border:1px;border-color:#FFD800;border-style: solid!important;text-align:center">
-                <h6><p><em>&#8220;I’ve been impressed with Chris’s quiet authority and design sensibility, combining flair and precision with a user-centred design approach.&#8221;</em></p><p>&#8212; Mark Hix, UX Director, cxpartners</p></h6> </div>
+    <div class="row full-width diff" style="background: #FFD800;color:#0A2A31!important;">
+        <div class="columns nopadleftclients">
+            <div class="row">
+                <div class="columns">
+                <div class="small-12 small-centered columns testimonialsinner">
+                    <h6 style="background: #FFD800;color:#0A2A31!important;"><p><em>&#8220;One of the best designers I've ever worked with.&#8221;</em></p><p>&#8212; Joe Leech, Author of Psychology for Designers</p></h6> </div>
+            </div>
+            </div>    
         </div>
-    </div>
+    </div> 
     <?php include 'casestudies.html';?> 
     <?php include 'footer.html';?>
     <?php include 'jslinks.html';?>
