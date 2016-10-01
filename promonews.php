@@ -53,7 +53,7 @@ I created a comprehensive design system to accompany the new visual identity, an
             <div class="row">
                 <div class="columns">
                 <div class="small-12 small-centered columns testimonialsinner">
-                    <h6 style="background: #FFD800;color:#0A2A31!important;"><p><em>&#8220;One of the best designers I've ever worked with.&#8221;</em></p><p>&#8212; Joe Leech, Author of Psychology for Designers</p></h6> </div>
+                    <h6 style="background: #FFD800;color:#0A2A31!important;"><p><em>&#8220;Chris is one of the best designers I've ever worked with.&#8221;</em></p><p>&#8212; Joe Leech, Author of Psychology for Designers</p></h6> </div>
             </div>
             </div>    
         </div>
